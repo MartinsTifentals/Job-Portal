@@ -6,7 +6,7 @@
   Martins Tifentals  
   Ausaf Shah   
   Mohammed Mahdi Syed  
-  Aahil Kaiser 
+  Aahil Kaiser  
   Nadir Hussain 
 # Points of discussion
   We planned to discuss Role assignment and the scope of the project.    
