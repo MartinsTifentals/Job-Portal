@@ -1,7 +1,7 @@
 # Meeting notes  
   Meeting #1 was held at 9:15-9:45 on the 22nd of January.   
 # Attendance  
-  Jacob Langham  
+  Jacob Langham (Late)  
   Mohsin Tahir  
   Martins Tifentals  
   Ausaf Shah  
