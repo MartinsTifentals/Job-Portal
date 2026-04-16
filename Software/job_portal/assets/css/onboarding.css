@@ -1,0 +1,130 @@
+﻿/* Job Portal file: assets\css\onboarding.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+ 
+body {
+    background: #b293ce;
+    min-height: 100vh;
+}
+ 
+body, input, textarea, button, select, label {
+    font-family: 'Inter', sans-serif;
+}
+ 
+.onboarding-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1)
+}
+ 
+.progress-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0
+}
+ 
+.progress-step {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #e1e5e9;
+    color: #666;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: all 0.3s;
+    font-size: 18px;
+    margin: 0 5px
+}
+ 
+.progress-step.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white
+}
+ 
+.step-content {
+    display: none;
+    padding: 2rem 0
+}
+ 
+.step-content.active {
+    display: block
+}
+ 
+.form-group {
+    margin-bottom: 1.5rem
+}
+ 
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333
+}
+ 
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e1e5e9;
+    border-radius: 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s
+}
+ 
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #667eea
+}
+ 
+.form-group textarea {
+    height: 120px;
+    resize: vertical
+}
+ 
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem
+}
+ 
+.btn {
+    background: #667eea;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3)
+}
+ 
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4)
+}
+ 
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none
+}
+ 
+.complete-btn {
+    background: #28a745 !important;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3) !important
+}
+ 
+.complete-btn:hover {
+    box-shadow: 0 8px 25px rgba(40, 167, 69, 0.4) !important
+}
+ 
+ 
